@@ -78,15 +78,11 @@
 		F61FF2F728AA4150007725CA /* Assignment2-ThaoN */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7160928BCB8B000452572 /* View */,
 				F6A03E5428AF450A00201741 /* Fonts */,
 				F6A03E5928AF4A3A00201741 /* Sounds */,
 				F6A03E5728AF472800201741 /* Info.plist */,
 				F61FF2F828AA4150007725CA /* Assignment2_ThaoNApp.swift */,
-				F61FF2FA28AA4150007725CA /* ContentView.swift */,
-				F6A03E5E28AF586300201741 /* HelpView.swift */,
-				F6779CBE28BAA03800426D48 /* ImageCard.swift */,
-				F61FF30628AA4343007725CA /* GameView.swift */,
-				F6518E6128B4A9E20092ADBC /* GameModeView.swift */,
 				F6518E6028B4838C0092ADBC /* Helpers */,
 				F6A03E4928ACDB7300201741 /* Assets.xcassets */,
 				F61FF2FE28AA4152007725CA /* Preview Content */,
@@ -130,6 +126,18 @@
 				F6A03E5A28AF4A4B00201741 /* match.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F6F7160928BCB8B000452572 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F61FF2FA28AA4150007725CA /* ContentView.swift */,
+				F6A03E5E28AF586300201741 /* HelpView.swift */,
+				F6779CBE28BAA03800426D48 /* ImageCard.swift */,
+				F61FF30628AA4343007725CA /* GameView.swift */,
+				F6518E6128B4A9E20092ADBC /* GameModeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

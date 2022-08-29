@@ -267,17 +267,15 @@ extension GameView {
                     .frame(width: 100, height: 100)
                     .foregroundColor(Color.red)
                     .offset(x: self.currentPosition.width, y: self.currentPosition.height)
-                                // 3.
-                                .gesture(DragGesture()
-                                    .onChanged { value in
-                                        self.currentPosition = CGSize(width: value.translation.width + self.newPosition.width, height: value.translation.height + self.newPosition.height)
-                                }   // 4.
-                                    .onEnded { value in
-                                        self.currentPosition = CGSize(width: value.translation.width + self.newPosition.width, height: value.translation.height + self.newPosition.height)
-                                        print(self.newPosition.width)
-                                        self.newPosition = self.currentPosition
-                                    }
-                            )
+                    .gesture(DragGesture()
+                        .onChanged { value in self.currentPosition = CGSize(width: value.translation.width + self.newPosition.width, height: value.translation.height + self.newPosition.height)
+                            
+                        }
+                        .onEnded { value in self.currentPosition = CGSize(width: value.translation.width + self.newPosition.width, height: value.translation.height + self.newPosition.height)
+                            self.newPosition = self.currentPosition
+                            
+                        }
+                    )
                 
             }
             
@@ -320,6 +318,7 @@ extension GameView {
                     }
 
                 }
+            
             Button {
                 self.win()
             } label: {
@@ -329,6 +328,7 @@ extension GameView {
                         .frame(minWidth: 100, idealWidth: 100, maxWidth: 120, minHeight: 150, idealHeight: 150, maxHeight: 250)
                 
             }
+            
         }
         
     }
@@ -377,7 +377,7 @@ extension GameView {
                         .resizable()
                         .scaledToFit()
                         .frame(minWidth: 100, idealWidth: 200, maxWidth: 250, minHeight: 50, idealHeight: 60, maxHeight: 150, alignment: .center)
-
+                    
                 }
                 
             }
@@ -487,12 +487,15 @@ extension GameView {
                         Text("Home")
                             .font(.custom("PressStart2P-Regular", size: 15))
                             .foregroundColor(.white)
+                        
                     }
+                    
                 }
                 
             }
             
         }
+        
     }
     
     // LEADERBOARD VIEW
@@ -531,29 +534,34 @@ extension GameView {
                                 RoundedRectangle(cornerRadius: 20)
                                     .foregroundColor(Color("Color3"))
                                     .shadow(radius: 20)
-                                    HStack {
-                                        Text("\(idx)")
-                                            .font(.custom("PressStart2P-Regular", size: 15))
-                                            .padding()
-                                        Spacer()
-                                        Text(newScore.username)
-                                            .font(.custom("PressStart2P-Regular", size: 15))
-                                            .padding()
-                                        Spacer()
-                                        Text("\(String(format: "%.1f", newScore.score))s")
-                                            .font(.custom("PressStart2P-Regular", size: 15))
-                                            .padding()
-                                    }
-                                }
+                            HStack {
+                                Text("\(idx)")
+                                    .font(.custom("PressStart2P-Regular", size: 15))
+                                    .padding()
+                                Spacer()
+                                Text(newScore.username)
+                                    .font(.custom("PressStart2P-Regular", size: 15))
+                                    .padding()
+                                Spacer()
+                                Text("\(String(format: "%.1f", newScore.score))s")
+                                    .font(.custom("PressStart2P-Regular", size: 15))
+                                    .padding()
+                                
+                            }}
                             .padding()
                             .frame(width: 340, height: 50, alignment: .center)
-                            }
+                            
+                        }
                     }
-                }.padding()
+                }
+                .padding()
+                    
+                }
                 
             }
+            
         }
-    }
+        
     }
     
     // GAMEWIN VIEW

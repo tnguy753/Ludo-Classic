@@ -9,16 +9,43 @@
 /* Begin PBXBuildFile section */
 		F61FF2F928AA4150007725CA /* Assignment2_ThaoNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FF2F828AA4150007725CA /* Assignment2_ThaoNApp.swift */; };
 		F61FF2FB28AA4150007725CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FF2FA28AA4150007725CA /* ContentView.swift */; };
-		F61FF2FD28AA4152007725CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61FF2FC28AA4152007725CA /* Assets.xcassets */; };
 		F61FF30028AA4152007725CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61FF2FF28AA4152007725CA /* Preview Assets.xcassets */; };
+		F61FF30728AA4343007725CA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FF30628AA4343007725CA /* GameView.swift */; };
+		F6518E5F28B4496D0092ADBC /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6518E5E28B4496D0092ADBC /* GameModel.swift */; };
+		F6518E6228B4A9E30092ADBC /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6518E6128B4A9E20092ADBC /* GameModeView.swift */; };
+		F6779CBF28BAA03800426D48 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6779CBE28BAA03800426D48 /* ImageCard.swift */; };
+		F6779CC128BB257C00426D48 /* UiModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6779CC028BB257B00426D48 /* UiModifiers.swift */; };
+		F6779CC328BB556100426D48 /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6779CC228BB556000426D48 /* backgroundmusic.mp3 */; };
+		F67E989328AFF0DC000ABE24 /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67E989228AFF0DC000ABE24 /* game-over.mp3 */; };
+		F67E989728B0B31A000ABE24 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67E989628B0B31A000ABE24 /* win.mp3 */; };
+		F6A03E4A28ACDB7300201741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A03E4928ACDB7300201741 /* Assets.xcassets */; };
+		F6A03E5628AF467B00201741 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6A03E5528AF451600201741 /* PressStart2P-Regular.ttf */; };
+		F6A03E5B28AF4A4B00201741 /* match.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6A03E5A28AF4A4B00201741 /* match.wav */; };
+		F6A03E5D28AF4A9F00201741 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A03E5C28AF4A9F00201741 /* PlaySound.swift */; };
+		F6A03E5F28AF586300201741 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A03E5E28AF586300201741 /* HelpView.swift */; };
+		F6F7160728BC92F800452572 /* gamemusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6F7160628BC92F700452572 /* gamemusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F61FF2F528AA4150007725CA /* Assignment2-ThaoN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment2-ThaoN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61FF2F828AA4150007725CA /* Assignment2_ThaoNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2_ThaoNApp.swift; sourceTree = "<group>"; };
 		F61FF2FA28AA4150007725CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F61FF2FC28AA4152007725CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61FF2FF28AA4152007725CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F61FF30628AA4343007725CA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F6518E5E28B4496D0092ADBC /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F6518E6128B4A9E20092ADBC /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
+		F6779CBE28BAA03800426D48 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		F6779CC028BB257B00426D48 /* UiModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiModifiers.swift; sourceTree = "<group>"; };
+		F6779CC228BB556000426D48 /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
+		F67E989228AFF0DC000ABE24 /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		F67E989628B0B31A000ABE24 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		F6A03E4928ACDB7300201741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
+		F6A03E5528AF451600201741 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		F6A03E5728AF472800201741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F6A03E5A28AF4A4B00201741 /* match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = match.wav; sourceTree = "<group>"; };
+		F6A03E5C28AF4A9F00201741 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		F6A03E5E28AF586300201741 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		F6F7160628BC92F700452572 /* gamemusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamemusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +78,17 @@
 		F61FF2F728AA4150007725CA /* Assignment2-ThaoN */ = {
 			isa = PBXGroup;
 			children = (
+				F6A03E5428AF450A00201741 /* Fonts */,
+				F6A03E5928AF4A3A00201741 /* Sounds */,
+				F6A03E5728AF472800201741 /* Info.plist */,
 				F61FF2F828AA4150007725CA /* Assignment2_ThaoNApp.swift */,
 				F61FF2FA28AA4150007725CA /* ContentView.swift */,
-				F61FF2FC28AA4152007725CA /* Assets.xcassets */,
+				F6A03E5E28AF586300201741 /* HelpView.swift */,
+				F6779CBE28BAA03800426D48 /* ImageCard.swift */,
+				F61FF30628AA4343007725CA /* GameView.swift */,
+				F6518E6128B4A9E20092ADBC /* GameModeView.swift */,
+				F6518E6028B4838C0092ADBC /* Helpers */,
+				F6A03E4928ACDB7300201741 /* Assets.xcassets */,
 				F61FF2FE28AA4152007725CA /* Preview Content */,
 			);
 			path = "Assignment2-ThaoN";
@@ -65,6 +100,36 @@
 				F61FF2FF28AA4152007725CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6518E6028B4838C0092ADBC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6518E5E28B4496D0092ADBC /* GameModel.swift */,
+				F6A03E5C28AF4A9F00201741 /* PlaySound.swift */,
+				F6779CC028BB257B00426D48 /* UiModifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F6A03E5428AF450A00201741 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F6A03E5528AF451600201741 /* PressStart2P-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F6A03E5928AF4A3A00201741 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F67E989628B0B31A000ABE24 /* win.mp3 */,
+				F67E989228AFF0DC000ABE24 /* game-over.mp3 */,
+				F6F7160628BC92F700452572 /* gamemusic.mp3 */,
+				F6779CC228BB556000426D48 /* backgroundmusic.mp3 */,
+				F6A03E5A28AF4A4B00201741 /* match.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +190,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A03E5628AF467B00201741 /* PressStart2P-Regular.ttf in Resources */,
+				F6A03E4A28ACDB7300201741 /* Assets.xcassets in Resources */,
+				F6A03E5B28AF4A4B00201741 /* match.wav in Resources */,
+				F67E989728B0B31A000ABE24 /* win.mp3 in Resources */,
+				F67E989328AFF0DC000ABE24 /* game-over.mp3 in Resources */,
+				F6779CC328BB556100426D48 /* backgroundmusic.mp3 in Resources */,
+				F6F7160728BC92F800452572 /* gamemusic.mp3 in Resources */,
 				F61FF30028AA4152007725CA /* Preview Assets.xcassets in Resources */,
-				F61FF2FD28AA4152007725CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6518E5F28B4496D0092ADBC /* GameModel.swift in Sources */,
+				F6779CBF28BAA03800426D48 /* ImageCard.swift in Sources */,
+				F6779CC128BB257C00426D48 /* UiModifiers.swift in Sources */,
+				F6A03E5D28AF4A9F00201741 /* PlaySound.swift in Sources */,
+				F6518E6228B4A9E30092ADBC /* GameModeView.swift in Sources */,
 				F61FF2FB28AA4150007725CA /* ContentView.swift in Sources */,
+				F6A03E5F28AF586300201741 /* HelpView.swift in Sources */,
+				F61FF30728AA4343007725CA /* GameView.swift in Sources */,
 				F61FF2F928AA4150007725CA /* Assignment2_ThaoNApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment2-ThaoN/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assignment2-ThaoN/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment2-ThaoN/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assignment2-ThaoN/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
